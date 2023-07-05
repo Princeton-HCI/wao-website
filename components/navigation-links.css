@@ -35,6 +35,7 @@
 @media(max-width: 767px) {
   .navigation-links-nav {
     gap: var(--dl-space-space-unit);
+    width: 100%;
     height: var(--dl-size-size-small);
     padding: var(--dl-space-space-sixunits);
     align-items: center;
@@ -72,6 +73,7 @@
 @media(max-width: 479px) {
   .navigation-links-nav {
     gap: var(--dl-space-space-unit);
+    width: 100%;
     padding: var(--dl-space-space-unit);
     padding-left: var(--dl-space-space-halfunit);
     justify-content: center;
@@ -79,7 +81,7 @@
   .navigation-links-link {
     margin-right: var(--dl-space-space-halfunit);
   }
-  .navigation-links-link1 {
+  .navigation-links-link2 {
     margin-right: var(--dl-space-space-halfunit);
   }
   .navigation-links-link3 {

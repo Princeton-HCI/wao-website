@@ -1,18 +1,15 @@
 .description-container {
   gap: var(--dl-space-space-twounits);
   width: 33%;
-  height: 360px;
+  height: auto;
   display: flex;
+  padding: var(--dl-space-space-twounits);
   position: relative;
   max-width: 1200px;
   align-self: flex-end;
   align-items: flex-start;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-unit);
   border-radius: var(--dl-radius-radius-radius4);
-  padding-right: var(--dl-space-space-unit);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-unit);
   justify-content: flex-start;
   background-color: rgba(196, 190, 176, 0.25);
 }
@@ -23,7 +20,9 @@
   display: flex;
   align-items: flex-start;
   padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
   border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
   background-color: var(--dl-color-new-1);
@@ -33,16 +32,20 @@
   height: var(--dl-size-size-large);
   object-fit: cover;
 }
-.description-text {
+.description-caption {
   color: var(--dl-color-new-5);
-  max-width: 100%;
-  margin-top: var(--dl-space-space-halfunit);
-  text-align: left;
+  font-size: 18px;
+  line-height: 27px;
 }
+.description-root-class-name {
+  align-self: stretch;
+}
+
 @media(max-width: 991px) {
   .description-container {
     width: 100%;
     height: auto;
+    padding: 0px;
     max-width: auto;
     align-items: center;
     margin-left: 0px;
@@ -57,28 +60,25 @@
     width: 60px;
     height: auto;
   }
-  .description-text {
-    color: var(--dl-color-new-5);
-    font-size: 1.3rem;
-    max-width: 600px;
-    align-self: center;
-    text-align: left;
-  }
 }
 @media(max-width: 767px) {
   .description-container {
     width: 100%;
     height: auto;
+    padding: 0px;
   }
-  .description-text {
-    color: var(--dl-color-new-5);
+  .description-caption {
+    width: 90%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .description-root-class-name1 {
+    max-width: auto;
+    margin-left: 0px;
   }
 }
 @media(max-width: 479px) {
   .description-image {
     width: 70px;
-  }
-  .description-text {
-    color: var(--dl-color-new-5);
   }
 }
