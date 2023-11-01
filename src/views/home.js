@@ -179,14 +179,11 @@ const Home = (props) => {
                 </h3>
                 <p className="home-description">
                   <span className="home-text12">
-                    Our first collaboration was a worker-led study
+                    The Shipt Calculator was a worker-led study
                   </span>
                   <span>
                     {' '}
-                    on changes after the grocery delivery app Shipt moved from a
-                    fully transparent pay structure to an algorithmic system.
-                    Over one hundred workers crowdsourced and analyzed their
-                    data app using
+                    of a black box algorithm used by the delivery company Shipt. Willy Solis, a member of the
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
@@ -194,20 +191,37 @@ const Home = (props) => {
                     />
                   </span>
                   <a
-                    href="https://gigbox.media.mit.edu/"
+                    href="https://twitter.com/GigWC"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="home-link01"
                   >
-                    Gigbox
+                    Gig Workers Collective
+                  </a>
+
+                  <span>
+                    {' '}
+                    who led the study, collaborated with
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <a
+                    href="https://coworker.org"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="home-link01"
+                  >
+                    Coworker.org
                   </a>
                   <span>
                     {' '}
-                    and a custom text bot. Together, we found that wages
-                    decreased for a majority but increased for a minority,
-                    suggesting that algorithmic management determines more than
-                    just pay – it also affects worker agency and well-being,
-                    too. Learn more in
+                    and our team to crowdsource and analyze data shared by over one hundred workers
+                    using a custom texting bot. We found that pay decreased for a majority but
+                    increased for a minority, suggesting that the algorithm determines more than
+                    just pay-it affects worker agency and well-being, too. Learn more about this in a
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
@@ -220,10 +234,10 @@ const Home = (props) => {
                     rel="noreferrer noopener"
                     className="home-link02"
                   >
-                    this blog post
+                    blog post
                   </a>
                   <span>
-                     at the MIT Media Lab and watch
+                    and
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
@@ -236,12 +250,11 @@ const Home = (props) => {
                     rel="noreferrer noopener"
                     className="home-link03"
                   >
-                    this short film
+                    11-minute film
                   </a>
                   <span>
                     {' '}
-                    we produced with workers and allies who made the
-                    collaboration happen.
+                    produced in collaboration with the MIT Media Lab and the FAccT conference.
                   </span>
                   <br className="home-text17"></br>
                 </p>
@@ -418,7 +431,7 @@ const Home = (props) => {
                         workers and allies to crowdsource data and investigate
                         the black-box algorithmic systems behind the platforms
                         that determine pay, schedule, and more, in the platform
-                        economy and beyond. 
+                        economy and beyond.
                       </span>
                       <span>
                         We launched the WAO in 2022. We are currently a
@@ -435,7 +448,7 @@ const Home = (props) => {
                         rel="noreferrer noopener"
                         className="home-link12"
                       >
-                        Mozilla Tech Fund 
+                        Mozilla Tech Fund
                       </a>
                       <a
                         href="https://foundation.mozilla.org/en/blog/auditing-ai-announcing-the-2023-mozilla-technology-fund-cohort/"
@@ -463,7 +476,7 @@ const Home = (props) => {
           <p className="home-caption6">
             {' '}
             We&apos;re open to collaborations to auditing algorithms and AI in
-            the platform economy 
+            the platform economy
           </p>
         </div>
         <div className="home-container5">
