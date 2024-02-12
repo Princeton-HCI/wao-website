@@ -10,11 +10,11 @@ const NavigationLinks = (props) => {
       <a href="#tools" className="navigation-links-link">
         {props.text1}
       </a>
-      <a href="#team" className="navigation-links-link1">
-        {props.text2}
-      </a>
-      <a href="#about" className="navigation-links-link2">
+      <a href="#about" className="navigation-links-link1">
         {props.text4}
+      </a>
+      <a href="#team" className="navigation-links-link2">
+        {props.text2}
       </a>
       <a href="#contact" className="navigation-links-link3">
         {props.text3}

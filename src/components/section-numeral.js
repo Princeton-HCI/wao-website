@@ -8,17 +8,17 @@ const SectionNumeral = (props) => {
   return (
     <div className="section-numeral-section-numeral">
       <div className="section-numeral-divide"></div>
-      <p className="section-numeral-text">{props.Number}</p>
+      <p className="section-numeral-text">{props.number}</p>
     </div>
   )
 }
 
 SectionNumeral.defaultProps = {
-  Number: '01',
+  number: '01',
 }
 
 SectionNumeral.propTypes = {
-  Number: PropTypes.string,
+  number: PropTypes.string,
 }
 
 export default SectionNumeral

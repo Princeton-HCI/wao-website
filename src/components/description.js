@@ -6,30 +6,40 @@ import './description.css'
 
 const Description = (props) => {
   return (
-    <div className="description-container">
+    <div className={`description-container ${props.rootClassName} `}>
       <div className="description-container1">
         <img
-          alt={props.image_alt}
-          src={props.image_src}
+          alt={props.imageAlt}
+          src={props.imageSrc}
           loading="lazy"
           className="description-image"
         />
       </div>
-      <span className="description-text Content">{props.text}</span>
+      <p className="description-caption">
+        <span className="">{props.text1}</span>
+        <br className=""></br>
+        <span className="">{props.text2}</span>
+      </p>
     </div>
   )
 }
 
 Description.defaultProps = {
-  image_alt: 'image',
+  imageAlt: 'image',
   text: 'WAO helps workers and allies investigate black-box algorithmic systems',
-  image_src: '/199-gigbox-031.svg',
+  text2: ' ',
+  imageSrc: '/199-gigbox-031.svg',
+  text1: 'The WAO is a crowdsourced auditing collaboration. ',
+  rootClassName: '',
 }
 
 Description.propTypes = {
-  image_alt: PropTypes.string,
+  imageAlt: PropTypes.string,
   text: PropTypes.string,
-  image_src: PropTypes.string,
+  text2: PropTypes.string,
+  imageSrc: PropTypes.string,
+  text1: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default Description
