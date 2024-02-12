@@ -50,6 +50,7 @@
     align-items: center;
     margin-left: 0px;
     flex-direction: row;
+    justify-content: flex-start;
     background-color: transparent;
   }
   .description-container1 {
@@ -60,6 +61,9 @@
     width: 60px;
     height: auto;
   }
+  .description-caption {
+    max-width: 350px;
+  }
 }
 @media(max-width: 767px) {
   .description-container {
@@ -68,8 +72,9 @@
     padding: 0px;
   }
   .description-caption {
-    width: 90%;
+    width: auto;
     font-size: 16px;
+    max-width: 350px;
     line-height: 24px;
   }
   .description-root-class-name1 {
@@ -80,5 +85,8 @@
 @media(max-width: 479px) {
   .description-image {
     width: 70px;
+  }
+  .description-caption {
+    width: auto;
   }
 }

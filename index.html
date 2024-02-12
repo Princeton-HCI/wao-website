@@ -44,6 +44,10 @@
       }
     </style>
     <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
       rel="shortcut icon"
       href="public/wao-official-logo1.svg"
       type="icon/png"
@@ -59,6 +63,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
       data-tag="font"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
@@ -69,17 +77,13 @@
     <link rel="stylesheet" href="./style.css" />
     <div>
       <link href="./index.css" rel="stylesheet" />
-      <script
-        type="text/javascript"
-        src="https://unpkg.com/@lottiefiles/lottie-player@1.6.0/dist/lottie-player.js"
-      ></script>
 
       <div class="home-container">
         <header data-role="Accordion" class="home-header">
           <div class="home-container01">
             <img
               alt="image"
-              src="public/logos/wao-official-logo.svg"
+              src="public/logos/logo_wao.svg"
               loading="lazy"
               class="home-image"
             />
@@ -112,7 +116,7 @@
             </div>
             <img
               alt="image"
-              src="public/woa-illustration-hero.svg"
+              src="public/illustration_hero.svg"
               loading="lazy"
               class="home-image01"
             />
@@ -122,7 +126,7 @@
               <div class="description-container1">
                 <img
                   alt="image"
-                  src="public/199-gigbox-031.svg"
+                  src="public/illustration_gigbox.svg"
                   loading="lazy"
                   class="description-image"
                 />
@@ -142,7 +146,7 @@
               <div class="description-container1">
                 <img
                   alt="image"
-                  src="public/199-audit-031.svg"
+                  src="public/illustration_audit.svg"
                   loading="lazy"
                   class="description-image"
                 />
@@ -162,7 +166,7 @@
               <div class="description-container1">
                 <img
                   alt="image"
-                  src="public/199-toolbox-031.svg"
+                  src="public/illustration_toolbox.svg"
                   loading="lazy"
                   class="description-image"
                 />
@@ -181,31 +185,18 @@
           </div>
         </section>
         <section id="tools" class="home-tools">
-          <div class="home-header2">
-            <div data-aos="fade-right" class="home-heading">
-              <h2 class="home-title">Tools</h2>
-              <p class="home-caption1">
-                <span>
-                  We're building tools to investigate black-box algorithmic
-                  systems
-                </span>
-                <br />
-                <span></span>
-              </p>
-            </div>
-          </div>
-          <lottie-player
-            src="https://assets1.lottiefiles.com/packages/lf20_eniBPFXbXV.json"
-            loop=""
-            speed="1"
-            autoplay=""
-            background="transparent"
-            class="home-lottie-node"
-          ></lottie-player>
-          <div class="home-fair-fare">
+          <h2 class="home-title">Tools</h2>
+          <p class="home-caption1">
+            <span>
+              We're building tools to investigate black-box algorithmic systems
+            </span>
+            <br />
+            <span></span>
+          </p>
+          <div class="home-fair-fare-box">
             <img
               alt="image"
-              src="public/logos/fairfare-wao-200w.png"
+              src="public/logos/logo_fairfare-200w.png"
               loading="lazy"
               class="home-image02"
             />
@@ -218,14 +209,14 @@
                 FairFare helps drivers, organizers, and policy-makers understand
                 the ride hail industry
               </span>
+              <span>&nbsp;</span>
               <span>
-                by crowdsourcing fare data from drivers. This study helps answer
-                key questions, such as how much of a fare goes to the app and
-                how much goes to the driver. Drivers securely and anonymously
-                link their job data to analyze average fare breakdowns and how
-                they change. Our pilot runs during the summer and fall of 2023,
-                part of a collaboration between MIT and Princeton and funded by
-                the Mozilla Foundation. Learn more at a Mozilla
+                by crowdsourcing fare data from drivers. Drivers securely and
+                anonymously link their job data to analyze average fare
+                breakdowns and changes over time, in several states nationwide.
+                This pilot study runs through Summer 2024, is based at Princeton
+                University, and is funded by the Mozilla Foundation. Read about
+                our launch in this
               </span>
               <a
                 href="https://foundation.mozilla.org/en/blog/giving-gig-workers-the-transparency-they-deserve/"
@@ -235,106 +226,103 @@
               >
                 blog post
               </a>
-              <span>and the</span>
+              <span>, learn about our early findings in</span>
               <a
-                href="https://getfairfare.org"
+                href="https://www.youtube.com/watch?v=1zGlYNS2qGk"
                 target="_blank"
                 rel="noreferrer noopener"
                 class="home-link02"
               >
-                getfairfare.org
+                this 10min video
               </a>
-              <span>website.</span>
+              <span>
+                with drivers in Colorado, and sign up for the study at &nbsp;
+              </span>
               <a
-                href="https://getfairfare.org"
+                href="https://getfairfare.org/driver/landing"
                 target="_blank"
                 rel="noreferrer noopener"
+                class="home-link03"
               >
-                <br class="home-text12" />
+                getfairfare.org
               </a>
+              <br class="home-text13" />
             </p>
           </div>
-          <div class="home-shipt">
-            <div class="home-row">
-              <div class="home-item">
-                <div class="home-details">
-                  <img
-                    alt="image"
-                    src="public/woa-icon-gigbox.svg"
-                    loading="lazy"
-                    class="home-image03"
-                  />
-                  <h3 class="home-title2">
-                    <span>The Shipt calculator</span>
-                    <br />
-                  </h3>
-                  <p class="home-description1">
-                    <span class="home-text15">
-                      The Shipt Calculator was a worker-led study of a black box
-                      algorithm
-                    </span>
-                    <span>
-                      used by the delivery company Shipt. Willy Solis, a member
-                      of the
-                    </span>
-                    <a
-                      href="https://twitter.com/GigWC"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="home-link04"
-                    >
-                      Gig Workers Collective
-                    </a>
-                    <span>who led the study, collaborated with</span>
-                    <a
-                      href="https://Coworker.org"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="home-link05"
-                    >
-                      Coworker.org
-                    </a>
-                    <span>
-                      and our team to crowdsource and analyze data shared by
-                      over one hundred workers using a custom texting bot. We
-                      found that wages decreased for a majority but increased
-                      for a minority, suggesting that the algorithm determines
-                      more than just pay – it affects worker agency and
-                      well-being, too. Learn more about this in a
-                    </span>
-                    <a
-                      href="https://www.media.mit.edu/projects/the-shipt-calculator-crowdsourcing-gig-worker-pay-data-to-audit-algorithmic-management/overview/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="home-link06"
-                    >
-                      blog post
-                    </a>
-                    <span>and</span>
-                    <a
-                      href="https://11-minute film"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="home-link07"
-                    >
-                      11-minute film
-                    </a>
-                    <span>
-                      produced in collaboration with the MIT Media Lab and the
-                      FAccT conference.
-                    </span>
-                    <br class="home-text21" />
-                  </p>
-                </div>
-              </div>
-            </div>
+          <div class="home-shipt-box">
+            <img
+              alt="image"
+              src="public/illustration_shipt.svg"
+              loading="lazy"
+              class="home-image03"
+            />
+            <h3 class="home-title2">
+              <span>The Shipt calculator</span>
+              <br />
+            </h3>
+            <p class="home-description1">
+              <span class="home-text16">
+                The Shipt Calculator was a worker-led study of a black box
+                algorithm
+              </span>
+              <span></span>
+              <span>
+                used by the delivery company Shipt. Willy Solis, a member of the
+              </span>
+              <a
+                href="https://twitter.com/GigWC"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link04"
+              >
+                Gig Workers Collective
+              </a>
+              <span>who led the study, collaborated with</span>
+              <a
+                href="http://coworker.org/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link05"
+              >
+                Cowo
+              </a>
+              <span class="home-text20">rker.org</span>
+              <span>
+                and our team to crowdsource and analyze data shared by over one
+                hundred workers using a custom texting bot. We found that wages
+                decreased for a majority but increased for a minority,
+                suggesting that the algorithm determines more than just pay – it
+                affects worker agency and well-being, too. Learn more about this
+                in a
+              </span>
+              <a
+                href="https://www.media.mit.edu/projects/the-shipt-calculator-crowdsourcing-gig-worker-pay-data-to-audit-algorithmic-management/overview/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link06"
+              >
+                blog post
+              </a>
+              <span>and</span>
+              <a
+                href="https://www.media.mit.edu/videos/hd-shipt-app-tracker-2023-02-22/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link07"
+              >
+                11-minute film
+              </a>
+              <span>
+                produced in collaboration with the MIT Media Lab and the FAccT
+                conference.
+              </span>
+              <br class="home-text24" />
+            </p>
           </div>
         </section>
         <section id="about" class="home-about">
-          <div class="home-header3">
-            <div data-aos="fade-right" class="home-heading1">
-              <h2 class="home-title3">About</h2>
-            </div>
+          <div class="home-header2">
+            <h2 class="home-title3">About</h2>
             <p class="home-caption2">
               <span>
                 The WAO is a crowdsourced auditing collaboration.&nbsp;
@@ -343,90 +331,59 @@
               <span></span>
             </p>
           </div>
-          <lottie-player
-            src="https://assets1.lottiefiles.com/packages/lf20_eniBPFXbXV.json"
-            loop=""
-            speed="1"
-            autoplay=""
-            background="transparent"
-            class="home-lottie-node1"
-          ></lottie-player>
-          <div class="home-brands">
-            <div class="home-row1">
-              <div class="home-item1">
-                <div class="home-details1">
-                  <div class="home-header4">
-                    <div data-aos="fade-right" class="home-heading2">
-                      <p class="home-caption3">
-                        <span>
-                          Investigating black-box platform algorithms, such as
-                          those used by Uber and DoorDash, faces major
-                          challenges in accessing the data necessary for a
-                          meaningful audit. To solve this, we’re developing
-                          tools and support for workers and allies to
-                          crowdsource data and investigate the black-box
-                          algorithmic systems behind the platforms that
-                          determine pay, schedule, and more, in the platform
-                          economy and beyond.&nbsp;
-                        </span>
-                        <span>
-                          We launched the WAO in 2022. We are currently a
-                          nonprofit initiative with funding from the
-                        </span>
-                        <a
-                          href="https://foundation.mozilla.org/en/what-we-fund/awards/mozilla-technology-fund-mtf/"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                          class="home-link08"
-                        >
-                          Mozilla Tech Fund&nbsp;
-                        </a>
-                        <a
-                          href="https://foundation.mozilla.org/en/blog/auditing-ai-announcing-the-2023-mozilla-technology-fund-cohort/"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                          class="home-link09"
-                        >
-                          2023 "Auditing AI" cohort
-                        </a>
-                        <span>.</span>
-                        <br />
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="home-details-box">
+            <p class="home-caption3">
+              <span>
+                Investigating black-box platform algorithms, such as those used
+                by Uber and DoorDash, faces major challenges in accessing the
+                data necessary for a meaningful audit. To solve this, we’re
+                developing tools and support for workers and allies to
+                crowdsource data and investigate the black-box algorithmic
+                systems behind the platforms that determine pay, schedule, and
+                more, in the platform economy and beyond.&nbsp;
+              </span>
+              <span>
+                We launched the WAO in 2022. We are currently a nonprofit
+                initiative with funding from the
+              </span>
+              <a
+                href="https://foundation.mozilla.org/en/what-we-fund/awards/mozilla-technology-fund-mtf/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link08"
+              >
+                Mozilla Tech Fund&nbsp;
+              </a>
+              <a
+                href="https://foundation.mozilla.org/en/blog/auditing-ai-announcing-the-2023-mozilla-technology-fund-cohort/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link09"
+              >
+                2023 "Auditing AI" cohort
+              </a>
+              <span>.</span>
+              <br />
+            </p>
           </div>
         </section>
         <section id="team" class="home-team">
-          <div class="home-header5">
-            <div data-aos="fade-right" class="home-heading3">
-              <p class="home-caption4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam.
-              </p>
-            </div>
+          <div class="home-header3">
+            <h2 class="home-title4">Team</h2>
+            <p class="home-caption4">
+              <span>
+                We're a team of applied and academic researchers supporting
+                workers and allies
+              </span>
+              <br />
+              <span></span>
+            </p>
           </div>
-          <div class="home-header6">
-            <div data-aos="fade-right" class="home-heading4">
-              <h2 class="home-title4">Team</h2>
-              <p class="home-caption5">
-                <span>
-                  We're a team of applied and academic researchers supporting
-                  workers and allies
-                </span>
-                <br />
-                <span></span>
-              </p>
-            </div>
-          </div>
-          <div class="home-brands1">
-            <div class="home-brand brand">
+          <div class="home-people">
+            <div class="home-teammate brand">
               <img
                 alt="image"
-                src="public/samantha_wao_490x490-200h.png"
+                src="public/teammate_samantha-200h.png"
                 loading="lazy"
                 class="home-image04"
               />
@@ -447,10 +404,10 @@
                 University of Colorado Boulder
               </a>
             </div>
-            <div class="home-brand1 brand">
+            <div class="home-teammate1 brand">
               <img
                 alt="image"
-                src="public/danny_wao_490x490-200h.png"
+                src="public/teammate_danny-200h.png"
                 loading="lazy"
                 class="home-image05"
               />
@@ -471,10 +428,10 @@
                 Turning Basin Labs
               </a>
             </div>
-            <div class="home-brand2 brand">
+            <div class="home-teammate2 brand">
               <img
                 alt="image"
-                src="public/dan_wao_490x490-200h.png"
+                src="public/teammate_dan-200h.png"
                 loading="lazy"
                 class="home-image06"
               />
@@ -495,10 +452,10 @@
                 MIT Media Lab
               </a>
             </div>
-            <div class="home-brand3 brand">
+            <div class="home-teammate3 brand">
               <img
                 alt="image"
-                src="public/andres_wao_490x490-200h.png"
+                src="public/teammate_andres-200h.png"
                 loading="lazy"
                 class="home-image07"
               />
@@ -522,14 +479,10 @@
           </div>
         </section>
         <section id="contact" class="home-contact">
-          <div class="home-header7">
-            <div data-aos="fade-right" class="home-heading5">
-              <h2 class="home-title5">Contact</h2>
-            </div>
-            <p class="home-caption6">
-              We help workers and allies audit platform algorithms and AI
-            </p>
-          </div>
+          <h2 class="home-title5">Contact</h2>
+          <p class="home-caption5">
+            We help workers and allies audit platform algorithms and AI
+          </p>
           <div class="home-container04">
             <div class="home-container05">
               <!-- style for form -->
@@ -712,73 +665,69 @@
           </div>
         </section>
         <section class="home-footer">
+          <div>
+            <div class="home-container07">
+              <style>
+                #scrollbar::-webkit-scrollbar-track
+                {
+                	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                	border-radius: 10px;
+                	background-color: #F5F5F5;
+                }
+
+                #scrollbar::-webkit-scrollbar
+                {
+                	height: 12px;
+                	background-color: #F5F5F5;
+                	border-radius: 10px;
+                }
+
+                #scrollbar::-webkit-scrollbar-thumb
+                {
+                	border-radius: 10px;
+                	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+                	background-color: #555;
+                }
+              </style>
+            </div>
+          </div>
+          <div>
+            <div class="home-container09">
+              <script>
+                ScrollReveal().reveal('.speaker');
+                ScrollReveal().reveal('.image-notes');
+              </script>
+            </div>
+          </div>
           <div class="home-background">
             <img
               alt="image"
-              src="public/circle-background.svg"
+              src="public/bg_circlebackground.svg"
               loading="lazy"
               class="home-image08"
             />
-            <img
-              alt="image"
-              src="public/line-background.svg"
-              class="home-image09"
-            />
+            <img alt="image" src="public/bg_line.svg" class="home-image09" />
           </div>
           <div class="home-hero-content">
-            <div class="home-caption7">
+            <div class="home-caption6">
               <button class="home-register button-style-1 button">
                 <img
                   alt="image"
-                  src="public/logos/wao-official-logo.svg"
+                  src="public/logos/logo_wao.svg"
                   loading="lazy"
                   class="home-image10"
                 />
               </button>
             </div>
-            <h1 class="home-text32">The Workers' Algorithm Observatory</h1>
+            <h1 class="home-text35">The Workers' Algorithm Observatory</h1>
             <a
               href="mailto:thewao@princeton.edu?subject=WAO - Inquiry"
               class="home-link18"
             >
-              <h1 class="home-text33">thewao@princeton.edu</h1>
+              <h1 class="home-text36">thewao@princeton.edu</h1>
             </a>
           </div>
         </section>
-        <div>
-          <div class="home-container07">
-            <script>
-              ScrollReveal().reveal('.speaker');
-              ScrollReveal().reveal('.image-notes');
-            </script>
-          </div>
-        </div>
-        <div>
-          <div class="home-container09">
-            <style>
-              #scrollbar::-webkit-scrollbar-track
-              {
-              	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-              	border-radius: 10px;
-              	background-color: #F5F5F5;
-              }
-
-              #scrollbar::-webkit-scrollbar
-              {
-              	height: 12px;
-              	background-color: #F5F5F5;
-              	border-radius: 10px;
-              }
-
-              #scrollbar::-webkit-scrollbar-thumb
-              {
-              	border-radius: 10px;
-              	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-              	background-color: #555;
-              }
-            </style>
-          </div>
-        </div>
       </div>
     </div>
     <script

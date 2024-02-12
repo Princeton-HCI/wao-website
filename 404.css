@@ -1,4 +1,5 @@
-.not-found-container {
+.page-container {
+  gap: var(--dl-space-space-twounits);
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,30 +7,72 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background-color: var(--dl-color-new-1);
 }
-.not-found-container1 {
-  display: flex;
-  position: relative;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.not-found-text1 {
-  color: rgb(38, 38, 38);
-  font-size: 252px;
-  margin-top: -20px;
-  font-weight: 900;
-  margin-bottom: -20px;
-  letter-spacing: -20px;
-}
-.not-found-container2 {
-  width: 421px;
+.page-container1 {
+  gap: var(--dl-space-space-twounits);
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
 }
-.not-found-text2 {
+.page-image {
+  width: 47px;
+  height: 48px;
+  object-fit: fill;
+}
+.page-caption {
+  color: var(--dl-color-new-5);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.page-text3 {
   text-align: center;
-  font-weight: 400;
+}
+.page-text4 {
+  font-size: 64px;
+}
+.page-text5 {
+  font-size: 64px;
+}
+.page-navlink {
+  color: var(--dl-color-new-1);
+  width: 100%;
+  font-size: 1.1rem;
+  max-width: var(--dl-size-size-xxlarge);
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  transition: 0.3s;
+  margin-left: 0px;
+  border-radius: var(--dl-radius-radius-radius4);
+  text-decoration: none;
+  background-color: var(--dl-color-new-5);
+}
+.page-navlink:hover {
+  color: var(--dl-color-new-1);
+  background-color: var(--dl-color-new-4);
+}
+@media(max-width: 991px) {
+  .page-container1 {
+    gap: var(--dl-space-space-twounits);
+  }
+  .page-caption {
+    color: var(--dl-color-gray-black);
+  }
+}
+@media(max-width: 767px) {
+  .page-container1 {
+    align-self: flex-start;
+  }
+  .page-caption {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media(max-width: 479px) {
+  .page-navlink {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
 }
