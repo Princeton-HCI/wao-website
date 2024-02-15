@@ -427,16 +427,16 @@
 .home-link05 {
   text-decoration: underline;
 }
-.home-text20 {
-  text-decoration: underline;
-}
 .home-link06 {
   text-decoration: underline;
 }
 .home-link07 {
   text-decoration: underline;
 }
-.home-text24 {
+.home-link08 {
+  text-decoration: underline;
+}
+.home-text23 {
   font-style: normal;
   font-weight: 700;
 }
@@ -496,10 +496,10 @@
   max-width: 640px;
   line-height: 27px;
 }
-.home-link08 {
+.home-link09 {
   text-decoration: underline;
 }
-.home-link09 {
+.home-link10 {
   text-decoration: underline;
 }
 .home-team {
@@ -555,13 +555,13 @@
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius4);
 }
-.home-link10 {
+.home-link11 {
   color: var(--dl-color-new-5);
   font-style: normal;
   font-weight: 600;
   text-decoration: underline;
 }
-.home-link11 {
+.home-link12 {
   color: var(--dl-color-new-4);
   font-size: 15px;
   font-style: normal;
@@ -576,13 +576,13 @@
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius4);
 }
-.home-link12 {
+.home-link13 {
   color: var(--dl-color-new-5);
   font-style: normal;
   font-weight: 600;
   text-decoration: underline;
 }
-.home-link13 {
+.home-link14 {
   color: var(--dl-color-new-4);
   font-size: 15px;
   font-style: normal;
@@ -597,13 +597,13 @@
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius4);
 }
-.home-link14 {
+.home-link15 {
   color: var(--dl-color-new-5);
   font-style: normal;
   font-weight: 600;
   text-decoration: underline;
 }
-.home-link15 {
+.home-link16 {
   color: var(--dl-color-new-4);
   font-size: 15px;
   font-style: normal;
@@ -618,13 +618,13 @@
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius4);
 }
-.home-link16 {
+.home-link17 {
   color: var(--dl-color-new-5);
   font-style: normal;
   font-weight: 600;
   text-decoration: underline;
 }
-.home-link17 {
+.home-link18 {
   color: var(--dl-color-new-4);
   font-size: 15px;
   font-style: normal;
@@ -743,7 +743,7 @@
   width: 100px;
   object-fit: cover;
 }
-.home-text35 {
+.home-text34 {
   color: rgb(255, 255, 255);
   font-size: 3em;
   font-style: normal;
@@ -751,10 +751,10 @@
   line-height: 1.1;
   margin-right: var(--dl-space-space-halfunit);
 }
-.home-link18 {
+.home-link19 {
   display: contents;
 }
-.home-text36 {
+.home-text35 {
   color: rgb(255, 255, 255);
   font-size: 1.5em;
   font-style: normal;
@@ -824,11 +824,11 @@
     width: var(--dl-size-size-medium);
     height: var(--dl-size-size-medium);
   }
-  .home-link10 {
+  .home-link11 {
     font-size: 11px;
     text-align: center;
   }
-  .home-link11 {
+  .home-link12 {
     font-size: 11px;
     text-align: center;
   }
@@ -842,11 +842,11 @@
     width: var(--dl-size-size-medium);
     height: var(--dl-size-size-medium);
   }
-  .home-link12 {
+  .home-link13 {
     font-size: 11px;
     text-align: center;
   }
-  .home-link13 {
+  .home-link14 {
     font-size: 11px;
     text-align: center;
   }
@@ -859,11 +859,11 @@
     width: var(--dl-size-size-medium);
     height: var(--dl-size-size-medium);
   }
-  .home-link14 {
+  .home-link15 {
     font-size: 11px;
     text-align: center;
   }
-  .home-link15 {
+  .home-link16 {
     font-size: 11px;
     text-align: center;
   }
@@ -877,21 +877,21 @@
     width: var(--dl-size-size-medium);
     height: var(--dl-size-size-medium);
   }
-  .home-link16 {
+  .home-link17 {
     font-size: 11px;
     text-align: center;
   }
-  .home-link17 {
+  .home-link18 {
     font-size: 11px;
     text-align: center;
   }
   .home-register {
     background-color: #d24b4a;
   }
-  .home-text35 {
+  .home-text34 {
     margin-right: var(--dl-space-space-halfunit);
   }
-  .home-text36 {
+  .home-text35 {
     margin-right: var(--dl-space-space-halfunit);
   }
 }
@@ -1041,10 +1041,10 @@
     height: var(--dl-size-size-large);
     border-radius: var(--dl-radius-radius-radius4);
   }
-  .home-link10 {
+  .home-link11 {
     font-size: 16px;
   }
-  .home-link11 {
+  .home-link12 {
     font-size: 16px;
   }
   .home-teammate1 {
@@ -1057,10 +1057,10 @@
     height: var(--dl-size-size-large);
     border-radius: var(--dl-radius-radius-radius4);
   }
-  .home-link12 {
+  .home-link13 {
     font-size: 16px;
   }
-  .home-link13 {
+  .home-link14 {
     font-size: 16px;
   }
   .home-teammate2 {
@@ -1072,10 +1072,10 @@
     height: var(--dl-size-size-large);
     border-radius: var(--dl-radius-radius-radius4);
   }
-  .home-link14 {
+  .home-link15 {
     font-size: 16px;
   }
-  .home-link15 {
+  .home-link16 {
     font-size: 16px;
   }
   .home-teammate3 {
@@ -1087,10 +1087,10 @@
     height: var(--dl-size-size-large);
     border-radius: var(--dl-radius-radius-radius4);
   }
-  .home-link16 {
+  .home-link17 {
     font-size: 16px;
   }
-  .home-link17 {
+  .home-link18 {
     font-size: 16px;
   }
   .home-contact {
@@ -1127,11 +1127,11 @@
     padding: var(--dl-space-space-halfunit);
     background-color: transparent;
   }
-  .home-text35 {
+  .home-text34 {
     width: 450px;
     font-size: 3rem;
   }
-  .home-text36 {
+  .home-text35 {
     width: 450px;
     font-size: 1.5rem;
   }
@@ -1217,10 +1217,10 @@
     max-width: auto;
     max-height: auto;
   }
-  .home-link10 {
+  .home-link11 {
     font-size: 16px;
   }
-  .home-link11 {
+  .home-link12 {
     font-size: 16px;
   }
   .home-teammate1 {
@@ -1236,10 +1236,10 @@
     max-width: auto;
     max-height: auto;
   }
-  .home-link12 {
+  .home-link13 {
     font-size: 16px;
   }
-  .home-link13 {
+  .home-link14 {
     font-size: 16px;
   }
   .home-teammate2 {
@@ -1255,10 +1255,10 @@
     max-width: auto;
     max-height: auto;
   }
-  .home-link14 {
+  .home-link15 {
     font-size: 16px;
   }
-  .home-link15 {
+  .home-link16 {
     font-size: 16px;
     text-decoration: inherit;
   }
@@ -1275,11 +1275,11 @@
     max-width: auto;
     max-height: auto;
   }
-  .home-link16 {
+  .home-link17 {
     font-size: 16px;
     text-align: center;
   }
-  .home-link17 {
+  .home-link18 {
     font-size: 16px;
     text-decoration: inherit;
   }
@@ -1289,11 +1289,11 @@
   .home-hero-content {
     padding-bottom: var(--dl-space-space-fourunits);
   }
-  .home-text35 {
+  .home-text34 {
     width: 100%;
     font-size: 3rem;
   }
-  .home-text36 {
+  .home-text35 {
     width: 100%;
     font-size: 1.5rem;
     text-decoration: underline;
