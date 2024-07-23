@@ -1,7 +1,7 @@
 .description-container {
   gap: var(--dl-space-space-twounits);
   width: 33%;
-  height: auto;
+  height: 100%;
   display: flex;
   padding: var(--dl-space-space-twounits);
   position: relative;
@@ -36,9 +36,6 @@
   color: var(--dl-color-new-5);
   font-size: 18px;
   line-height: 27px;
-}
-.description-root-class-name {
-  align-self: stretch;
 }
 @media(max-width: 991px) {
   .description-container {
