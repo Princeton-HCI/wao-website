@@ -12,6 +12,8 @@
     --color-text-gray: #6b7280;
     --color-text-gray-light: #7F7F7F;
     --color-error: #d04c4b;
+    --color-bg-red: #E05C5C;
+    --color-bg-yellow: #F0B429;
     
     /* Fonts */
     --font-sans: 'Noto Sans', sans-serif;
@@ -347,6 +349,14 @@ body {
 
 .tool-card-left.blue {
     background-color: var(--color-bg-blue);
+}
+
+.tool-card-left.red {
+    background-color: var(--color-bg-red);
+}
+
+.tool-card-left.yellow {
+    background-color: var(--color-bg-yellow);
 }
 
 .tool-icon {

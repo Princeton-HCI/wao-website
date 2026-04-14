@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <clipPath id="squircle">
+      <rect x="0" y="0" width="1024" height="1024" rx="220" ry="220"/>
+    </clipPath>
+    <mask id="phonemask">
+      <rect x="312" y="162" width="400" height="700" rx="56" fill="white"/>
+    </mask>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1024" height="1024" rx="220" fill="#FFD94A"/>
+
+  <g clip-path="url(#squircle)">
+
+    <!-- Solid black phone -->
+    <rect x="312" y="162" width="400" height="700" rx="56" fill="#000"/>
+
+    <!-- Screen bezel inset -->
+    <rect x="348" y="230" width="328" height="524" rx="12" fill="#1a1a1a"/>
+
+    <!-- Camera dot top center -->
+    <circle cx="512" cy="196" r="22" fill="#FFD94A"/>
+
+
+    <!-- Golden stripes cut through phone body only -->
+    <g mask="url(#phonemask)">
+      <rect x="184" y="0" width="44" height="1024" fill="#E6A800"/>
+      <rect x="388" y="0" width="44" height="1024" fill="#E6A800"/>
+      <rect x="592" y="0" width="44" height="1024" fill="#E6A800"/>
+      <rect x="796" y="0" width="44" height="1024" fill="#E6A800"/>
+    </g>
+
+  </g>
+</svg>
