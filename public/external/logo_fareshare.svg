@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <clipPath id="squircle">
+      <rect x="0" y="0" width="1024" height="1024" rx="220" ry="220"/>
+    </clipPath>
+    <mask id="iconmask">
+      <rect x="287" y="162" width="450" height="700" rx="16" fill="white"/>
+    </mask>
+  </defs>
+  <rect x="0" y="0" width="1024" height="1024" rx="220" fill="#F4A7A0"/>
+  <g clip-path="url(#squircle)">
+    <rect x="287" y="162" width="450" height="700" rx="16" fill="#000000"/>
+    <polygon points="287,842 327,802 367,842 407,802 447,842 487,802 527,842 567,802 607,842 647,802 687,842 737,842 737,862 287,862" fill="#F4A7A0"/>
+    <g mask="url(#iconmask)">
+      <rect x="358" y="0" width="52" height="1024" fill="#D94F4F"/>
+      <rect x="486" y="0" width="52" height="1024" fill="#D94F4F"/>
+      <rect x="614" y="0" width="52" height="1024" fill="#D94F4F"/>
+    </g>
+    <text x="512" y="512"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="380"
+          font-weight="900"
+          text-anchor="middle"
+          dominant-baseline="middle"
+          fill="#F4A7A0">$</text>
+  </g>
+</svg>
