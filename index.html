@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="https://wao.cs.princeton.edu/public/external/illustration_characters.webp" as="image" fetchpriority="high">
   </head>
 <body>
     <div class="homepage-container">
@@ -268,7 +269,7 @@
             newsGrid.innerHTML = articlesToShow.map((article, index) => {
                 const imageFirst = article.imageFirst !== undefined ? article.imageFirst : (index % 2 === 1);
                 
-                const imageElement = `<img src="${article.image}" alt="${article.imageAlt}" class="news-article-image">`;
+                const imageElement = `<img src="${article.image}" alt="${article.imageAlt}" class="news-article-image" loading="lazy">`;
                 const imageFirstHTML = imageFirst ? imageElement : '';
                 const imageLastHTML = imageFirst ? '' : imageElement;
                 
