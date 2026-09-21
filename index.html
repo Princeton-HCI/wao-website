@@ -226,6 +226,15 @@
         
         const articlesData = [
             {
+                "date": "Published on May 20 2026",
+                "title": "FareShare: A Tool for Labor Organizers to Estimate Lost Wages and Contest Arbitrary AI and Algorithmic Deactivations",
+                "description": "What happens when a rideshare driver is suddenly locked out of the platform connecting them to riders, wages, and daily work? Deactivation—the abrupt removal of gig workers’ platform access—typically occurs via arbitrary AI and algorithmic decisions with little explanation or recourse. This represents one of the most severe forms of algorithmic control and often devastates workers’ financial stability. Recent U.S. state policies now mandate appeals processes and recovering compensation during periods of wrongful deactivation based on...",
+                "link": "https://doi.org/10.1145/3788052",
+                "image": "public/external/fig2_fareshare.webp",
+                "imageAlt": "News image",
+                "imageFirst": true
+            },
+            {
                 "date": "Published on Oct 15 2025",
                 "title": "FairFare: A Tool for Crowdsourcing Rideshare Data to Empower Labor Organizers",
                 "description": "Rideshare workers experience unpredictable working conditions due to gig work platforms’ reliance on opaque AI and algorithmic systems. In response to these challenges, we found that labor organizers want data to help them advocate for legislation to increase the transparency and accountability of these platforms. To address this need, we collaborated with a Colorado-based rideshare union to develop FairFare, a tool that crowdsources and analyzes workers’ data to estimate the “take rate” — the percentage of the rider price retained by the rideshare platform...",
@@ -254,7 +263,7 @@
             }
         ];
         
-        let displayedCount = 3;
+        let displayedCount = 4;
         
         function displayArticles() {
             const newsGrid = document.getElementById('news-grid');
@@ -290,7 +299,7 @@
                 `;
             }).join('');
             
-            if (articlesData.length > 3) {
+            if (articlesData.length > 4) {
                 viewMoreContainer.style.display = 'block';
             } else {
                 viewMoreContainer.style.display = 'none';
