@@ -56,7 +56,7 @@ body {
 
 /* Left Side - Illustration */
 .illustration-section {
-    background-image: url('public/external/illustration_characters.png');
+    background-image: url('public/external/illustration_characters.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
